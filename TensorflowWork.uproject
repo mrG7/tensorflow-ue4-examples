@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{62F7ECB7-4415-71B3-FCBE-0D89BC6A72AA}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TensorflowWork",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LowEntryExtStdLib",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
+		},
+		{
+			"Name": "UnrealEnginePython",
+			"Enabled": true
+		},
+		{
+			"Name": "SocketIOClient",
+			"Enabled": true
+		},
+		{
+			"Name": "UnrealJS",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/be751eedc4a14cc09e39945bc5a531c4"
+		}
+	],
+	"AdditionalPluginDirectories": [
+		"/TensorflowWork/Plugins"
+	]
+}
